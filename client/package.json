@@ -1,6 +1,13 @@
 {
   "private": true,
-  "dependencies": {
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
     "connect-livereload": "^0.5.4",
     "grunt": "latest",
     "grunt-connect-proxy": "^0.2.0",
@@ -10,12 +17,5 @@
     "grunt-replace": "^0.11.0",
     "load-grunt-tasks": "^3.3.0",
     "serve-static": "^1.10.0"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "devDependencies": {}
+  }
 }
