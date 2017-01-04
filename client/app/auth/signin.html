@@ -1,0 +1,45 @@
+<div class="page-signin">
+    <div class="signin-header">
+        <section class="logo text-center">
+            <h1><a href="#/">{{main.brand}}</a></h1>
+        </section>
+    </div>
+    <div class="signin-body">
+        <div class="container">
+            <div class="form-container">
+                <form data-ng-controller="authCtrl" class="form-horizontal">
+                    <fieldset>
+                        <div class="form-group">
+                            <div class="input-group input-group-first">
+                                <span class="input-group-addon">
+                                    <span class="ti-email"></span>
+                                </span>
+                                <input type="email" data-ng-model="user.username" class="form-control input-lg" placeholder="邮箱">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <span class="ti-lock"></span>
+                                </span>
+                                <input type="password" data-ng-model="user.password" class="form-control input-lg" placeholder="密码">
+                            </div>
+                        </div>
+                        <div class="divider divider-xl"></div>
+                        <div class="form-group">
+                            <a type="submit" data-ng-click="signin()" class="btn btn-primary btn-lg btn-block text-center">登录</a>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="divider"></div>
+                <section class="additional-info">
+                    <p class="text-right">
+                        <a href="#/auth/forgot-password">忘记密码?</a>
+                        <span> | </span>
+                        <a href="#/auth/signup">注册</a>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>

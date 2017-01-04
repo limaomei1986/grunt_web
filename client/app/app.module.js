@@ -15,6 +15,7 @@
         'duScroll',
 
         // Custom modules
+        'app.auth',
         'app.nav',
         'app.i18n',
         'app.chart',
