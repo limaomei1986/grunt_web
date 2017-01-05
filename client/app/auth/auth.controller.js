@@ -8,7 +8,7 @@
 		$scope.signin = function() {
 			authFact.login($scope.user).then(function(response) {
 				// success                
-				console.log(authFact.isUserAuthenticated());
+				//console.log(authFact.isUserAuthenticated());
 				if (authFact.isUserAuthenticated()) {
 
 					$rootScope.isUserAuthenticated = authFact.isUserAuthenticated();

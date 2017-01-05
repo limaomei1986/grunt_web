@@ -6,7 +6,7 @@
 			// Service logic
 			var user;
 			var cachedToken;
-			var baseAPI = 'http://neadcom.wwwss24.a2hosted.com/343TruckingAPI/api/v1/';
+			var baseAPI = 'http://www.alicun.top/v1/';
 
 			function login(user) {
 
